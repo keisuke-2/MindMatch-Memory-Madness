@@ -7,12 +7,14 @@
   align-items: center;
   height: 100px;
   margin-top: 20px;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .title h1 {
-  font-size: 36px;
+  font-size: 40px;
   color: #6563FF;
-  /* Text color */
   text-align: center;
   text-transform: uppercase;
 }
