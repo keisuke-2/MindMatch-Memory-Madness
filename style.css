@@ -48,8 +48,8 @@ body{
 }
 
 .cards {
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -132,11 +132,11 @@ body{
   }
 
   .card .front-view img {
-    width: 17px;
+    width: 21px;
   }
 
   .card .back-view img {
-    max-width: 40px;
+    max-width: 50px;
   }
 }
 
@@ -147,10 +147,10 @@ body{
   }
 
   .card .front-view img {
-    width: 15px;
+    width: 17px;
   }
 
   .card .back-view img {
-    max-width: 35px;
+    max-width: 40px;
   }
 }
