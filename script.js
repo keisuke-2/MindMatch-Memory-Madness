@@ -63,3 +63,19 @@ shuffleCard();
 cards.forEach(card => {
     card.addEventListener("click", flipCard);
 });
+
+document.getElementById("dlButton").addEventListener("click", function() {
+  var pdfUrl = 'ROBLESCV.pdf';
+
+  // Creating a hidden link element
+  var link = document.createElement('a');
+  link.href = pdfUrl;
+  link.download = 'Robles[CV].pdf';
+
+  // Triggering the click event on the link
+  document.body.appendChild(link);
+  link.click();
+
+  // Removing the link from the DOM
+  document.body.removeChild(link);
+});
